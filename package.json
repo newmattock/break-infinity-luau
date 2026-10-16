@@ -1,0 +1,12 @@
+{
+  "name": "break-infinity-luau-tests",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "fixtures": "node tests/generate-reference.mjs",
+    "fixtures:published": "ORACLE=published node tests/generate-reference.mjs"
+  },
+  "devDependencies": {
+    "break_infinity.js": "2.1.1"
+  }
+}

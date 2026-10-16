@@ -1,0 +1,13 @@
+Roblox Studio rerun, 2026-10-15, exact delivered test place.
+2026-10-15T20:00:48.773Z,104.773308,6fbbf000,6,Info [FLog::CreatorOutput] Luau unit: 508 passed
+2026-10-15T20:00:49.002Z,105.002205,6f9b3000,6,Info [FLog::CreatorOutput] Luau unit: 508 passed
+2026-10-15T20:00:58.479Z,114.479179,70943000,6,Info [FLog::CreatorOutput] [DECIMAL_STUDIO] Server RepositoryReference passed=89927 failed=0
+2026-10-15T20:01:01.604Z,117.604050,70943000,6,Info [FLog::CreatorOutput] [DECIMAL_STUDIO] Client RepositoryReference passed=89927 failed=0
+2026-10-15T20:01:07.860Z,123.860947,70113000,6,Info [FLog::CreatorOutput] [DECIMAL_STUDIO] Server PublishedReference passed=89839 failed=0
+2026-10-15T20:01:07.861Z,123.861023,70113000,6,Info [FLog::CreatorOutput] [DECIMAL_STUDIO_RESULT] {"seconds":19.089504291652703,"environment":"Server","engine":"0.743.0.7431133","failed":0,"passed":180274,"integration":9}
+2026-10-15T20:01:11.080Z,127.080315,70113000,6,Info [FLog::CreatorOutput] [DECIMAL_STUDIO] Client PublishedReference passed=89839 failed=0
+2026-10-15T20:01:11.080Z,127.080406,70113000,6,Info [FLog::CreatorOutput] [DECIMAL_STUDIO_RESULT] {"seconds":22.0797606666747,"environment":"Client","engine":"0.743.0.7431133","failed":0,"passed":180274,"integration":9}
+2026-10-15T20:01:11.237Z,127.237846,6fbbf000,6,Info [FLog::CreatorOutput] [DECIMAL_STUDIO_NETWORK] Server decoded client payload and replied 3e+1000
+2026-10-15T20:01:11.269Z,127.269348,70737000,6,Info [FLog::CreatorOutput] [DECIMAL_STUDIO_NETWORK] Client received and decoded 3e+1000
+2026-10-15T20:01:11.270Z,127.270348,6f9b3000,6,Info [FLog::CreatorOutput] [DECIMAL_STUDIO_CLIENT_COMPLETE] passed=180274 integration=10 failed=0
+2026-10-15T20:01:11.282Z,127.282501,70113000,6,Info [FLog::CreatorOutput] [DECIMAL_STUDIO_CLIENT_RECEIPT] {"seconds":22.0797606666747,"integration":10,"engine":"0.743.0.7431133","environment":"Client","failed":0,"passed":180274}

@@ -1,0 +1,69 @@
+{
+  "date": "2026-10-15",
+  "studio_version": "0.743.0.7431133",
+  "platform": "Apple Silicon macOS",
+  "mode": "Studio F5 solo test: separate server and client simulations",
+  "module_sha256": "941025bc04bc384ed995e979d7e568e8b63438dc8b0a672bd181b9a4f9bb9953",
+  "saved_studio_module_exactly_matches_deliverable": true,
+  "results": [
+    {
+      "seconds": 18.943733458349016,
+      "environment": "Server",
+      "engine": "0.743.0.7431133",
+      "failed": 0,
+      "passed": 180274,
+      "integration": 9
+    },
+    {
+      "seconds": 22.1567353749997,
+      "environment": "Client",
+      "engine": "0.743.0.7431133",
+      "failed": 0,
+      "passed": 180274,
+      "integration": 9
+    }
+  ],
+  "checks_per_environment": 180274,
+  "core_checks_total": 360548,
+  "additional_checks": {
+    "server_json_and_module_loading": 9,
+    "client_json_and_module_loading": 9,
+    "client_server_network_round_trip": "passed in both directions",
+    "raw_subnormal_result_bit_audit": 20
+  },
+  "failed": 0,
+  "fixes": [
+    "Preserve buffer-transported subnormal inputs and the minimum-double constant despite Studio flushing native literals.",
+    "Recover rounded subnormal power results without subnormal operands.",
+    "Avoid an underflowed reciprocal in factorial at enormous native-number inputs."
+  ],
+  "fixture_transport": "Subnormal numeric fixture values are constructed from raw IEEE-754 bytes with buffer.readf64, preserving the JavaScript oracle input bits through Studio parsing.",
+  "numeric_tolerance": 2e-11,
+  "native_runtime_limitation": "Roblox can flush subnormal numeric literals and operations to zero. Use decimal strings for such inputs; a value already converted to zero by Roblox cannot be recovered by the library.",
+  "post_verification_test_place_change": "Results ScreenGui persists across respawns and renders once after completion; both changes verified in Studio.",
+  "place_sha256": "1370f4583b555680fc6228381d8bd1e2b5c0c26fde5673328aa82dfdafc2f226",
+  "evidence": "studio-test-results.log",
+  "packaged_place_retest": {
+    "results": [
+      {
+        "seconds": 17.727866416680627,
+        "environment": "Server",
+        "engine": "0.743.0.7431133",
+        "failed": 0,
+        "passed": 180274,
+        "integration": 9
+      },
+      {
+        "seconds": 20.588273250003112,
+        "environment": "Client",
+        "engine": "0.743.0.7431133",
+        "failed": 0,
+        "passed": 180274,
+        "integration": 9
+      }
+    ],
+    "dashboard_server_and_client": "PASS, visually verified",
+    "network_round_trip": "passed in both directions",
+    "evidence": "studio-retest-results.log"
+  }
+}

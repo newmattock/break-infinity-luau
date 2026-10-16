@@ -1,0 +1,50 @@
+{
+  "verified_date": "2026-10-15",
+  "upstream_repository": "https://github.com/Patashu/break_infinity.js",
+  "upstream_revision": "22a00b9dcac4219760ba82e90c47ffba365958d6",
+  "published_package": "break_infinity.js@2.1.1",
+  "luau_revision": "8387cfb461b38ce09e37c1e4c2811538ef1bf5cb",
+  "platform": "Apple Silicon macOS",
+  "checks": {
+    "repository_reference": 89927,
+    "published_reference": 89839,
+    "luau_unit": 508,
+    "total": 180274,
+    "failed": 0
+  },
+  "strict_analysis": "passed",
+  "optimization_levels_tested": [
+    "O2 (final source); default (before final factorial correction)"
+  ],
+  "roblox_studio_tested": true,
+  "numeric_relative_tolerance": 2e-11,
+  "decimal_exponent_comparison": "exact, or equivalent adjacent representations",
+  "error_comparison": "must throw; error text is not compared",
+  "bounded_output": "each custom zero expansion is limited to 1000000 zeroes",
+  "module_sha256": "941025bc04bc384ed995e979d7e568e8b63438dc8b0a672bd181b9a4f9bb9953",
+  "files": {
+    ".gitignore": "4d56952b0fb13bf8f9b6c13a6d4c34a075bac3af447636a1df4335d7576e2f97",
+    "Decimal-Studio-Test.rbxlx": "1370f4583b555680fc6228381d8bd1e2b5c0c26fde5673328aa82dfdafc2f226",
+    "Decimal.luau": "941025bc04bc384ed995e979d7e568e8b63438dc8b0a672bd181b9a4f9bb9953",
+    "LICENSE": "925bc58df3bab9727bb988f3328188006dee0cad3a911f929ae55a6e2b1b0180",
+    "README.md": "6a81f10f398cfa69972735213a6c756007a3a931591b8c4c1ea7f8a01533a5df",
+    "package-lock.json": "4cc7d6f0e417e43b007f4622f4e4f75a3d66c8571e8ec176cacb8d2a5e65eb1e",
+    "package.json": "34a2bd5cca807065b797a2f5650dbad05f6758acb7f20c145994ef0f5a69a906",
+    "studio-retest-results.log": "9e7129773c6b4b50bb62fe364e80743afef3408ce0c2c78cd62ef080c0e5a2e9",
+    "studio-test-results.log": "a16e0f2e60da58b401c8ad74773b4053aa6211eacb7d66b6e3ef1998e98a6174",
+    "studio-verification.json": "9c1cdc218306bd39175c442aabdd1e94ac1d83fcfa72ba5ebf65d6c39d4ac60a",
+    "tests/api-surface.luau": "7ef133c7756c59677c52d11600f0bf0024bca5f6135854b4cf92c81b35f12baf",
+    "tests/check-reference.luau": "f965e2043e1b3331a625ccbfd1e48b8adf168a0fdc349acb48ee6e44c8a678d0",
+    "tests/generate-reference.mjs": "c76bc8aba7c168ff8654f360d5b71deaf1dded1e26298b782b5f779242a857bc",
+    "tests/oracle/break_infinity.mjs": "ea5d1ddb61c42d15b83d55ff3c02ae0ce16acb8c75f67f08f6f23cba9c497ba3",
+    "tests/published-api-surface.luau": "c1c43dcab0b46b701f728bf534cd6e0c7c7b571e79a6f8b934ed5a13a2afea79",
+    "tests/published-reference-summary.json": "d3100a7ba89c7bc70621797c792be85b37dbc343e845a3650dfe8627aafde8de",
+    "tests/published-reference.luau": "6f0be1ca382a2cd9e47211def4e6899b4cba06f0c3d9ac0604eb8b78277f17b4",
+    "tests/reference-summary.json": "0390f1ca5d9bd2f5ce2ce5b994a39a4c4153410292d7e06310d6e3144f29d7a7",
+    "tests/reference.luau": "e724415e0a84d40e188bc6b58352383381003aa645fa212aa34ce0946a12d675",
+    "tests/run-published.luau": "5ab7cd084c25d8e0fe98db8a107f91203cae67ed6b3854f28bfc1d48461c7744",
+    "tests/run.luau": "dce123a962d2287e460ef5a616bc785de381571f1173b7d284e87b33f189f3f1",
+    "tests/unit.luau": "c98610e006c65b30794e2e5786ec20dfa997a21a22e12e65d379d8cb2c1ce0d5"
+  },
+  "roblox_studio_report": "studio-verification.json"
+}

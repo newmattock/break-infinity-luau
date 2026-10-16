@@ -1,0 +1,8 @@
+* text=auto
+*.luau text eol=lf
+*.rbxlx text eol=lf linguist-generated=true
+*.rbxmx text eol=lf linguist-generated=true
+tests/reference.luau linguist-generated=true
+tests/published-reference.luau linguist-generated=true
+tests/oracle/** linguist-vendored=true
+upstream/** linguist-vendored=true

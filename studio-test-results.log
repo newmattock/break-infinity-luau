@@ -1,0 +1,13 @@
+2026-10-15T18:29:41.450Z,155.450546,6fb93000,6,Info [FLog::CreatorOutput] Luau unit: 508 passed
+2026-10-15T18:29:41.690Z,155.690918,6f3a7000,6,Info [FLog::CreatorOutput] Luau unit: 508 passed
+2026-10-15T18:29:50.183Z,164.183029,6ffab000,6,Info [FLog::CreatorOutput] [DECIMAL_STUDIO] Server RepositoryReference passed=89927 failed=0
+2026-10-15T18:29:53.651Z,167.651886,6fd9f000,6,Info [FLog::CreatorOutput] [DECIMAL_STUDIO] Client RepositoryReference passed=89927 failed=0
+2026-10-15T18:30:00.384Z,174.384537,6f5b3000,6,Info [FLog::CreatorOutput] [DECIMAL_STUDIO] Server PublishedReference passed=89839 failed=0
+2026-10-15T18:30:00.384Z,174.384964,6f5b3000,6,Info [FLog::CreatorOutput] [DECIMAL_STUDIO_RESULT] {"seconds":18.943733458349017,"environment":"Server","engine":"0.743.0.7431133","failed":0,"passed":180274,"integration":9}
+2026-10-15T18:30:03.845Z,177.845840,703c3000,6,Info [FLog::CreatorOutput] [DECIMAL_STUDIO] Client PublishedReference passed=89839 failed=0
+2026-10-15T18:30:03.846Z,177.846085,703c3000,6,Info [FLog::CreatorOutput] [DECIMAL_STUDIO_RESULT] {"seconds":22.1567353749997,"environment":"Client","engine":"0.743.0.7431133","failed":0,"passed":180274,"integration":9}
+2026-10-15T18:30:04.180Z,178.180618,6f3a7000,6,Info [FLog::CreatorOutput] [DECIMAL_STUDIO_NETWORK] Server decoded client payload and replied 3e+1000
+2026-10-15T18:30:04.302Z,178.302017,6f3a7000,6,Info [FLog::CreatorOutput] [DECIMAL_STUDIO_NETWORK] Client received and decoded 3e+1000
+2026-10-15T18:30:04.302Z,178.302841,6f5b3000,6,Info [FLog::CreatorOutput] [DECIMAL_STUDIO_CLIENT_COMPLETE] passed=180274 integration=10 failed=0
+2026-10-15T18:30:04.309Z,178.309097,701b7000,6,Info [FLog::CreatorOutput] [DECIMAL_STUDIO_CLIENT_RECEIPT] {"seconds":22.1567353749997,"integration":10,"engine":"0.743.0.7431133","environment":"Client","failed":0,"passed":180274}
+2026-10-15T18:31:10.528Z,244.528458,6ffab000,6,Info [FLog::CreatorOutput] [DECIMAL_SUBNORMAL_AUDIT] 20 passed; 0 failed
